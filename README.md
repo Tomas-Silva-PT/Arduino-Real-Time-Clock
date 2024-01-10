@@ -1,8 +1,6 @@
 # Arduino Real Time Clock
 ## Building an Real Time Clock using a RTC Module and an Arduino
 
-In this project a RTC Module and an Arduino are used to build a simple piano. 
-
 In this project I wanted to learn about the usage of a Real Time Clock Module (RTC Module) using arduino. For this simple project I followed some guides online in which all the code and schematics is based off.
 
 The reference used was: https://www.youtube.com/watch?v=MfmK55TREuQ&t=449s&ab_channel=EnjoyMechatronics.
@@ -11,7 +9,7 @@ The reference used was: https://www.youtube.com/watch?v=MfmK55TREuQ&t=449s&ab_ch
 ### Table of Contents
 
 1. [Objective](#1-objective)
-2. [Eletrical Circuit](#2-eletrical-circuit)
+2. [Electrical Circuit](#2-electrical-circuit)
    1. [Material Needed](#21-material-needed)
         1. [Why do we need a I2C Module?](#211-why-do-we-need-a-i2c-module)
         2. [Why do we need RTC Module to calculate time?](#212-why-do-we-need-rtc-module-to-calculate-time)
@@ -25,7 +23,7 @@ The reference used was: https://www.youtube.com/watch?v=MfmK55TREuQ&t=449s&ab_ch
 
 The objective is to use an `Arduino` to receive data about time from a `RTC` (Real Time Clock) Module, and display it using a `LCD I2C` (Liquid Crystal Display) Module.
 
-### 2. Eletrical Circuit
+### 2. Electrical Circuit
 
 #### 2.1 Material Needed
 
@@ -62,7 +60,7 @@ The following image shows how to connect all the components listed above:
 
 ![circuit](./schematics/circuit.png)
 
-This schematic was designed using the [Fritzing](https://fritzing.org/download/).
+This schematic was designed using a software named [Fritzing](https://fritzing.org/download/).
 
 It's possible that the `LCM 1602 IIC I2C Module` is already attached to your `LCD`, but for this schematics we assume both components are separated.
 <br>
@@ -88,7 +86,7 @@ The [`i2c_address_scanner.ino`](./src/i2c_address_scanner/i2c_address_scanner.in
 
 ### 4. End Result
 
-After [building the circuit](#2-eletrical-circuit) and [uploading the code to the Arduino](#3-code), the end result should look like this:
+After [building the circuit](#2-Electrical-circuit) and [uploading the code to the Arduino](#3-code), the end result should look like this:
 
 <img src="./schematics/circuit.jpeg" alt="End Result" title="End Result" style="display: block;
   margin-left: auto;
