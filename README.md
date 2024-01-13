@@ -1,7 +1,7 @@
 # Arduino Real Time Clock
 ## Building an Real Time Clock using a RTC Module and an Arduino
 
-In this project I wanted to learn about the usage of a Real Time Clock Module (RTC Module) using arduino. For this simple project I followed some guides online in which all the code and schematics is based off.
+In this project I wanted to learn about the usage of a Real Time Clock Module (RTC Module) using arduino. For this simple project I followed some guides online in which all the code and schematics are based off.
 
 The reference used was: https://www.youtube.com/watch?v=MfmK55TREuQ&t=449s&ab_channel=EnjoyMechatronics.
 <hr>
@@ -84,6 +84,14 @@ The [`main.ino`](./src/main/main.ino) file should be uploaded to the Arduino aft
 <br>
 The [`i2c_address_scanner.ino`](./src/i2c_address_scanner/i2c_address_scanner.ino) file can be used to check the address of your `LCD`. For details of why this is important, check this [link](https://lastminuteengineers.com/i2c-lcd-arduino-tutorial/#:~:text=pin%20labeled%20%E2%80%98LED%E2%80%99.-,I2C%20Address%20of%20LCD,-If%20you%20have).
 
+#### 3.1 Library Dependencies
+
+For the code to work, you will need to install the following Arduino Libraries:
+
+| Name | Author |
+| :- | :- |
+| Rtc by Makuna | Michael C. Miller  |
+| LCD_I2C | BlackHack |
 ### 4. End Result
 
 After [building the circuit](#2-Electrical-circuit) and [uploading the code to the Arduino](#3-code), the end result should look like this:
