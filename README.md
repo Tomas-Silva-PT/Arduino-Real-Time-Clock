@@ -15,6 +15,7 @@ The reference used was: https://www.youtube.com/watch?v=MfmK55TREuQ&t=449s&ab_ch
         2. [Why do we need RTC Module to calculate time?](#212-why-do-we-need-rtc-module-to-calculate-time)
    2. [Schematic](#22-schematic)
 3. [Code](#3-code)
+   1. [Library Dependencies](#31-library-dependencies)
 4. [End Result](#4-end-result)
 
 <hr>
